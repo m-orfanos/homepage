@@ -2,6 +2,8 @@
   import Github from 'svelte-bootstrap-icons/lib/Github.svelte';
   import Linkedin from 'svelte-bootstrap-icons/lib/Linkedin.svelte';
   import Twitter from 'svelte-bootstrap-icons/lib/TwitterX.svelte';
+
+  import Toggle from './toggle.svelte';
 </script>
 
 <header class="header">
@@ -20,7 +22,7 @@
     <a href="https://twitter.com/morf4nos" title="Twitter">
       <Twitter width="24" height="24" />
     </a>
-    <button>Toggle</button>
+    <Toggle />
   </nav>
 </header>
 

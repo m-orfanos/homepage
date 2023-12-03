@@ -3,6 +3,19 @@ body {
   height: 100%;
 }
 
+:root {
+  --gap: 2em;
+  --font-family: system-ui, sans-serif;
+
+  color-scheme: dark;
+  --color-base: #1e1e2e;
+  --blue: #89b4fa;
+  --lavender: #b4befe;
+  --mantle: #181825;
+  --rosewater: #f5e0dc;
+  --color-text: #cdd6f4;
+}
+
 /* taken from https://github.com/catppuccin */
 /* catppuccin latte */
 @media (prefers-color-scheme: light) {
@@ -17,7 +30,18 @@ body {
   }
 }
 
+[color-scheme="light"] {
+  color-scheme: light;
+  --color-base: #eff1f5;
+  --blue: #1e66f5;
+  --lavender: #7287fd;
+  --mantle: #e6e9ef;
+  --rosewater: #dc8a78;
+  --color-text: #4c4f69;
+}
+
 /* catppuccin mocha */
+/*
 @media (prefers-color-scheme: dark) {
   :root {
     color-scheme: dark;
@@ -28,6 +52,17 @@ body {
     --rosewater: #f5e0dc;
     --color-text: #cdd6f4;
   }
+}
+*/
+
+[color-scheme="dark"] {
+  color-scheme: dark;
+  --color-base: #1e1e2e;
+  --blue: #89b4fa;
+  --lavender: #b4befe;
+  --mantle: #181825;
+  --rosewater: #f5e0dc;
+  --color-text: #cdd6f4;
 }
 
 /* taken from https://tailwindcss.com/docs/container */
@@ -52,11 +87,6 @@ body {
 @media (min-width: 1280px) {}
 
 @media (min-width: 1536px) {}
-
-:root {
-  --gap: 2em;
-  --font-family: system-ui, sans-serif;
-}
 
 html {
   background: var(--color-base);
