@@ -1,7 +1,7 @@
 <script>
-  import Twitter from 'svelte-bootstrap-icons/lib/TwitterX.svelte';
-  import Linkedin from 'svelte-bootstrap-icons/lib/Linkedin.svelte';
   import Github from 'svelte-bootstrap-icons/lib/Github.svelte';
+  import Linkedin from 'svelte-bootstrap-icons/lib/Linkedin.svelte';
+  import Twitter from 'svelte-bootstrap-icons/lib/TwitterX.svelte';
 </script>
 
 <header class="header">
@@ -26,12 +26,13 @@
 
 <style lang="scss">
   .header {
-    padding: var(--gap);
-    display: grid;
     align-items: center;
+    background: var(--mantle);
+    display: grid;
     grid-template-areas: 'logo nav';
     grid-template-columns: 1fr 1fr;
     justify-content: space-between;
+    padding: var(--gap);
 
     a {
       text-decoration: none;
@@ -55,12 +56,12 @@
 
     .header-nav {
       display: flex;
-      justify-content: end;
       gap: 0.8em;
+      justify-content: end;
       margin: auto var(--gap);
       a {
         &:hover {
-          color: blue;
+          color: var(--blue);
         }
       }
     }

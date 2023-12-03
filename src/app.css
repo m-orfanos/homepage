@@ -3,6 +3,59 @@ body {
   height: 100%;
 }
 
+/* catppuccin latte */
+[color-scheme='light'] {
+  color-scheme: light;
+  --color-base: #eff1f5;
+  --blue: #1e66f5;
+  --lavender: #7287fd;
+  --mantle: #e6e9ef;
+  --rosewater: #dc8a78;
+  --color-text: #4c4f69;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color-scheme: light;
+    --color-base: #eff1f5;
+    --blue: #1e66f5;
+    --lavender: #7287fd;
+    --mantle: #e6e9ef;
+    --rosewater: #dc8a78;
+    --color-text: #4c4f69;
+  }
+}
+
+/* catppuccin mocha */
+[color-scheme='dark'] {
+  color-scheme: dark;
+  --color-base: #1e1e2e;
+  --blue: #89b4fa;
+  --lavender: #b4befe;
+  --mantle: #181825;
+  --rosewater: #f5e0dc;
+  --color-text: #cdd6f4;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: dark;
+    --color-base: #1e1e2e;
+    --blue: #89b4fa;
+    --lavender: #b4befe;
+    --mantle: #181825;
+    --rosewater: #f5e0dc;
+    --color-text: #cdd6f4;
+  }
+}
+
 :root {
   --gap: 2em;
+  --font-family: system-ui, sans-serif;
+}
+
+html {
+  background: var(--color-base);
+  color: var(--color-text);
+  font-family: var(--font-family);
 }
