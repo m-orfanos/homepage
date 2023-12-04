@@ -12,7 +12,7 @@
     I've been working professionally in the technology sector since 2012, and unprofessionally since
     2004 where I learned programming to solve engineering/math-related problems. You can find out
     more about my profesional career on
-    <a href="https:// www.linkedin.com/in/morfanos">Linkedin</a>.
+    <a href="https://www.linkedin.com/in/morfanos">Linkedin</a>.
   </p>
 
   <p>
