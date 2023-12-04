@@ -1,5 +1,6 @@
 <script lang="ts">
   import Header from './header.svelte';
+	import Footer from './footer.svelte'
 
   import '../app.css';
   import 'sanitize.css';
@@ -11,4 +12,6 @@
   <main>
     <slot />
   </main>
+
+  <Footer />
 </div>
