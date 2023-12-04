@@ -1,11 +1,11 @@
 html,
 body {
   height: 100%;
+  font-family: 'Montserrat Variable', sans-serif;
 }
 
 :root {
   --gap: 2em;
-  --font-family: system-ui, sans-serif;
 
   color-scheme: dark;
   --color-base: #1e1e2e;
@@ -84,16 +84,13 @@ body {
   }
 }
 
-@media (min-width: 1280px) {
-}
+@media (min-width: 1280px) {}
 
-@media (min-width: 1536px) {
-}
+@media (min-width: 1536px) {}
 
 html {
   background: var(--color-base);
   color: var(--color-text);
-  font-family: var(--font-family);
   margin: 0 auto;
   max-width: var(--max-width);
 }
