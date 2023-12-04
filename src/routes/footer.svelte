@@ -1,8 +1,8 @@
 <footer>
   <div>
     <p>
-      &copy {new Date().getFullYear()}. Built using <a href="https://kit.svelte.dev/">Sveltekit</a>,
-      theme based on <a href="https://github.com/catppuccin/catppuccin">Catppuccin</a> theme.
+      &copy {new Date().getFullYear()}. Built using <a href="https://kit.svelte.dev/">Sveltekit</a>
+      and theme based on <a href="https://github.com/catppuccin/catppuccin">Catppuccin</a>.
     </p>
   </div>
 </footer>
@@ -15,7 +15,7 @@
     line-height: var(--line-height-sm);
 
     div {
-      display:flex;
+      display: flex;
       align-content: center;
       justify-content: center;
     }
