@@ -4,8 +4,8 @@
   <p>
     I'm a software developer based in Eastern Canada. I have formal training in both
     <a href="https://en.wikipedia.org/wiki/Building_engineer">building engineering</a>
-    and computer science. Most of my experience in the former is in project management, 
-    specifically large civil engineering projects.
+    and computer science. Most of my experience in the former is in project management, specifically
+    large civil engineering projects.
   </p>
 
   <p>
@@ -16,10 +16,10 @@
   </p>
 
   <p>
-    In my free time, I still find a joy in coding and learning new technologies, mostly through practical projects.
-    However, I also believe it's important to be well-rounded, which is why I dedicate as much time, if not more,
-    reading about various topics beyond tech. When I'm not learning something new, I like to go for runs, long walks, or
-    play video games.
+    In my free time, I still find a joy in coding and learning new technologies, mostly through
+    practical projects. However, I also believe it's important to be well-rounded, which is why I
+    dedicate as much time, if not more, reading about various topics beyond tech. When I'm not
+    learning something new, I like to go for runs, long walks, or play video games.
   </p>
 
   <p>
