@@ -33,7 +33,7 @@
   {/if}
 </button>
 
-<style>
+<style lang="scss">
   button {
     padding: 0;
     font-weight: inherit;
@@ -41,10 +41,14 @@
     border: none;
     box-shadow: none;
     overflow: hidden;
-  }
 
-  button > * {
-    display: flex;
-    gap: var(--gap);
+    &:hover {
+      color: var(--blue);
+    }
+
+    > * {
+      display: flex;
+      gap: var(--gap);
+    }
   }
 </style>
