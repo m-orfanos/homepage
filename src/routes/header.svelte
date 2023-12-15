@@ -37,7 +37,8 @@
     padding: var(--gap);
 
     a {
-      text-decoration: none;
+      color: inherit;
+      text-decoration: inherit;
       &:hover {
         text-decoration: underline;
       }
